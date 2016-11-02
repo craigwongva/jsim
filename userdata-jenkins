@@ -1,0 +1,6 @@
+wget https://bitnami.com/redirect/to/130982/bitnami-jenkins-1.658-4-linux-x64-installer.run
+chmod +x bitnami-jenkins-1.658-4-linux-x64-installer.run
+./bitnami-jenkins-1.658-4-linux-x64-installer.run
+cd jenkins-1.658-4/
+./ctlscript.sh start
+
